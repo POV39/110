@@ -1,11 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>This is an example project</h1>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YachtJet</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,300;1,300&family=Roboto:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+
+  <body>
+    <section id="reviews" class="reviews">
+      <div class="container reviews-container">
+        <h2 class="reviews-title">
+          YachtJet take pride in providing the best possible service and
+          experience to our customers
+        </h2>
+        <p class="reviews-subtitle">
+          Our customers have enjoyed unforgettable moments on our yachts. Don't
+          just take our word for it - read on to find out what they have to say
+          about their journey with us.
+        </p>
+
+        <ul class="list-reviews">
+          <!-- ---------------------------------John Wax----------------------------- -->
+
+          <li class="list-photo">
+            <img
+              class="reviews-img"
+              srcset="
+                ./images/new/john-wax.png    1x,
+                ./images/new/john-wax@2x.png 2x
+              "
+              src="./images/new/john-wax.png"
+              alt="Photo John Wax"
+              width="56"
+              height="56"
+            />
+            <h3 class="member-name">John Wax</h3>
+            <p class="member-text">
+              I rented the Lagoon 620 with my family for a week-long vacation
+              and it was the best decision ever. The yacht was spacious,
+              comfortable, and luxurious, and the crew took care of everything.
+            </p>
+          </li>
+
+          <!-- ---------------------------------Victoria Romashenko----------------------------- -->
+
+          <li class="list-photo second">
+            <img
+              class="reviews-img"
+              srcset="
+                ./images/new/victoria-romashenko.png    1x,
+                ./images/new/victoria-romashenko@2x.png 2x
+              "
+              src="./images/new/victoria-romashenko.png"
+              alt="Photo Victoria Romashenko"
+              width="56"
+              height="56"
+            />
+            <h3 class="member-name">Victoria Romashenko</h3>
+            <p class="member-text">
+              The Sunseeker Manhattan 66 was the perfect choice for our romantic
+              getaway. The yacht was beautifully designed, with all the
+              amenities we needed, and the crew was attentive and friendly.
+            </p>
+          </li>
+
+          <!-- ---------------------------------Ihor Trachuk----------------------------- -->
+
+          <li class="list-photo third">
+            <img
+              class="reviews-img"
+              srcset="
+                ./images/new/ihor-trachuk.png    1x,
+                ./images/new/ihor-trachuk@2x.png
+              "
+              src="./images/new/ihor-trachuk.png"
+              alt="Photo Ihor Trachuk"
+              width="56"
+              height="56"
+            />
+            <h3 class="member-name">Ihor Trachuk</h3>
+            <p class="member-text">
+              The Azimut 80 was the most luxurious yacht I've ever been on. The
+              cabins were spacious and elegant, and the outdoor areas were
+              perfect for relaxing and entertaining. Worth every penny!
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </body>
 </html>
